@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<title>Online Juice Bar</title>
+<link rel="stylesheet" type="text/css" href="Style.css">
+<script defer src="Script.js"></script>
+</head>
+<body>
+  <form class="Ordering-form">
+  <img id="j1"src="Jucies.png" alt="Jucies">
+  <img id="j2"src="Jucies2.png" alt="Jucies">
+   <h1>Order your Drink:</h1>
+      
+	    <div class="bigPadding"><!--Div contains the style of the css-->
+		<label for="email">Email</label><br>
+		<input type="text" placeholder="Enter Email" id="email" name="fname" onblur="emailv();" required><span id="message1">
+		</div>
+		<div class="bigPadding">
+		<label for="fname">First Name</label><br>
+		<input type="Firstname" placeholder="Enter First name" 
+		name="fname" id="fname" onblur="FnameV();" required><span id="message2">
+		</div>
+		<div class="bigPadding">
+		<label for="lname" >Last name</label><br>
+		<input type="text" name="Lname" id="lname" onblur="ln()"placeholder="Enter Last Name" required ><span id="message3">
+		  </div>
+		  <div class="bigPadding">
+		<Label>Choose your Drink:</Label>
+			 <input type="radio" id="orange" name="Juice" value="Orange">
+			 <label for="orange">Orange</label>
+			 <input type="radio" id="oreo Milkshake" name="Juice" value="Oreo Milkshake">
+			 <label for="female">Oreo Milkshake</label>
+			 <input type="radio" id="mango" name="Juice" value="Mango">
+			 <label for="other">Mango</label>
+		  </div class="bigPadding">	 
+		  <div class="bigPadding">	 
+			<label >Choose Drink Size:</label>
+			<select name="drinks" id="mySelect" onchange="change();">
+			<option value="Small">Small</option>
+			<option value="Medium">Medium</option>
+			<option value="Large">Large</option>
+			<option value="Extra Large">Extra Large</option>
+			</select>
+		  </div>
+		  <div class="bigPadding">
+			<Label>Extras:</label>
+			<input type="checkbox" id="biscuit" name="Biscuit" value="Biscuit">
+			 <label for="biscuit">Biscuit</label><br>
+			 <input type="checkbox" id="cherry Flavor" name="Cherry Flavor" value="Cherry Flavor">
+			 <label for="cherry Flavor">Cherry Flavor</label>
+			 <input type="checkbox" id="Ice cream pops" name="Ice cream pops" value="Ice cream pops">
+			 <label for="Ice cream pops">Ice cream pops</label>
+		  </div>    
+		  &gt
+		  
+		  <input id="sub"type="submit" value="Order">
+          
+    <form>
+
+
+
+
+
+</body>
+</html>
